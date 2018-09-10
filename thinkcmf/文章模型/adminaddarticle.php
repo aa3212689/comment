@@ -15,3 +15,6 @@
 //               $a=explode("&amp;",$data['awards']);
 //               $data['awards']=$a;
 //        }
+
+//序列化失败
+$arrwo=json_encode($arrw,true);
