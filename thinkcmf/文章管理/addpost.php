@@ -18,3 +18,13 @@
 //
 //                    array_push($data['post']['more']['do'],$a );
 //            }
+
+
+//永远都有错误的转化
+    if (!empty($data['awards']) ) {
+                dump($data['awards']);
+                $ye=[];
+               $ye=explode("&amp;",$data['awards']);
+               $data['awards']=implode($ye);
+dump($data['awards']);
+            }
