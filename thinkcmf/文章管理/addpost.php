@@ -28,3 +28,12 @@
                $data['awards']=implode($ye);
 dump($data['awards']);
             }
+
+
+            //时间带给我无限的痛苦,过去就不行
+            //            $data['start_time']= strtotime($data['start_time']);
+//           $data['post']['start_time']= strtotime($data['post']['start_time']);
+//      $data['post']['end_time']= strtotime($data['post']['end_time']);
+//      dump($data['post']['end_time']);
+//            $data['awards']=$a;
+//            $abw=$data['post']['awards'];
