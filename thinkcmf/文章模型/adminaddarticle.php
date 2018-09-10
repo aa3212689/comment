@@ -18,3 +18,19 @@
 
 //序列化失败
 $arrwo=json_encode($arrw,true);
+
+//曾经经历的痛苦
+//if(!empty($data['awards'])){
+//            $arrw=explode('&amp',$data['awards']);
+//foreach($arrw as $key =>$value){
+//    $data['awards'][$key]=$value;
+//            dump($arrw);}
+//}
+
+//        if (!empty($data['awards'])) {
+//            $data['post']['awards']['award'] = [];
+//            foreach ($data['awards'] as $key => $url) {
+////                $photoUrl = cmf_asset_relative_url($url);
+//                array_push($data['post']['more']['awards'], [$key => $url]);
+//            }
+//        }
