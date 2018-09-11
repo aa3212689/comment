@@ -37,3 +37,15 @@ dump($data['awards']);
 //      dump($data['post']['end_time']);
 //            $data['awards']=$a;
 //            $abw=$data['post']['awards'];
+
+//痛苦的继续
+//        if (!empty($data['post']['awards'])) {
+////            $data['post']['awards']['award'] = [];
+//            foreach ($data['post']['awards'] as $key => $url) {
+////                $photoUrl = cmf_asset_relative_url($url);
+//                array_push($data['post']['more']['awards'], [$key => $url]);
+//            }
+//        }
+//        $data["awards"]['lai']='来吧';
+//$data["awards"]['you']="你好";
+//        $data["awards"]['me']="我们";
